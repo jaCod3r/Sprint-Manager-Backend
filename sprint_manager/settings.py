@@ -39,8 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'studentauth',
     'rest_framework',
-    'knox',
+    'frontend'
 ]
+
+# AUTH_USER_MODEL = 'studentauth.Student'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
